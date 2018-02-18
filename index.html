@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Questions API</title>
+		<link rel="stylesheet" href="questions.css">
+		<script src="questions.js"></script>
+	</head>
+	<body>
+		<header>
+			<h2>Test your knowledge!!!</h2>
+		</header>
+		<div id="modal"> 
+    		<div class="modalcontent">
+      			<p>Think you know a lot about computers? See if you can answer these questions! Click start to continue</p>
+      			<button id="start">Start Test</button>
+   			</div>
+		</div>
+		<div id="newGameModal"> 
+    		<div class="modalcontent">
+      			<p id="scoreResult"></p>
+      			<button id="newGameBtn">New Game</button>
+   			</div>
+		</div>  
+		<section class="questionContent">
+			<div class="container">
+				<p id="smallQuestionNumber">Question 1 of 10.</p>
+				<h3 id="mainQuestion"></h3>
+				<form action="">
+  					<input type="radio" id="true" name="btn">True<br>
+  					<input type="radio" id="false" name="btn">False
+				</form>
+				<button id="submit">Submit</button>
+			</div>
+		</section>
+	</body>
+</html>
